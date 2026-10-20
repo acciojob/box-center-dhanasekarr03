@@ -1,1 +1,19 @@
 /*  your css code here. If applicable */
+.box1{
+	position:absolute;
+	top:50%;
+	left:50%;
+	width:200px;
+	height:200px;
+	background-color:lightblue;
+	transform:translate(-50%, -50%);
+	border:2px solid black;
+}
+
+.box1 p{
+	position:absolute;
+	top:50%;
+	left:50%;
+	color:purple;
+	transform:translate(-50%,-50%)
+}
